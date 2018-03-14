@@ -1,0 +1,9 @@
+.simple {
+  padding: 20px;
+  border: 1px solid red;
+}
+.special {
+  padding: 20px;
+  background: pink;
+  height: 300px;
+}

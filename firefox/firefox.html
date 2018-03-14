@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Firefox</title>
+  <link rel="stylesheet" href="http://localhost:3030/templates.css">
+  <style>
+    #top-bar {
+      position: fixed;
+      top: 0;
+      right: 0;
+    }
+    #notification-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Firefox New Tab</h1>
+  <div hidden id="notification-bar"></div>
+  <div hidden id="top-bar"></div>
+  <script src="http://localhost:3030/templates.js"></script>
+  <script src="./firefox.js"></script>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "message-center-prototype",
+  "version": "0.0.1",
+  "description": "A prototype to demonstrate a possible architecture for message center",
+  "scripts": {
+    "start": "open ./firefox/firefox.html && node ./runServers.js"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}

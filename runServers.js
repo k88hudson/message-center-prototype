@@ -1,2 +1,2 @@
-require("./message-center-templates/message-center-templates")();
+require("./template-server/template-server")();
 require("./snippets-server/snippets-server")();

@@ -1,5 +1,5 @@
 
-function MessageCenterRotationModule(messages) {
+function NotificationRouter(messages) {
   let currentIndex = 0;
   const maxIndex = messages.length - 1;
   const containers = {
@@ -11,7 +11,7 @@ function MessageCenterRotationModule(messages) {
     const data = messages[currentIndex];
     const templateId = data.template || "simple";
     // Access the template from the remote js file
-    const template = new MessageCenterTemplates[templateId]();
+    const template = new NotificationCenterTemplates[templateId]();
 
     // Clear
     for (const id in containers) {
@@ -44,7 +44,7 @@ async function main() {
     {text: "Have you tried the new tab page?", color: "pink", template: "simple"}
   ];
 
-  MessageCenterRotationModule([
+  NotificationRouter([
     ...onboardingMessages,
     ...snippetsCampaigns
   ]);

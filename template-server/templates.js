@@ -18,7 +18,7 @@ class Special {
   }
 }
 
-window.MessageCenterTemplates = {
+window.NotificationCenterTemplates = {
   simple: Simple,
   special: Special
 };
